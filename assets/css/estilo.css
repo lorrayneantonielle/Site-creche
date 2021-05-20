@@ -1,0 +1,190 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+@font-face{
+	Font-family: 'FonteLogo';
+} 
+
+div#interface{
+	background-color: #fdf0d5 ;
+ }
+p{
+text-align:justify;
+text-indent: 50px;}
+
+a{
+	color: #606060;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+
+/*/* Formatação titulo */
+
+header#cabecalho {
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: none;
+	background-color: #c1121f;
+}
+header#cabecalho img{
+	display:block;
+	margin-left: 180px;
+}
+header#cabecalho hgroup {
+	font-family:'New Tegomin', serif;
+	display:block;
+	font-size:10pt;
+	position:relative;
+	font-weight: none;
+	top:-10px;
+}
+
+header#cabecalho h1{
+	color:#ffffff
+	top:1000px;
+}
+header#cabecalho hgroup h3{
+	font-weight: none;
+	text-align: right;
+	
+}
+
+
+
+
+/*/* Formatação do menu */
+nav#menu {
+	display: block;
+	font-family:'New Tegomin', serif;
+}
+	
+nav#menu ul{
+	list-style:none;
+	text-transform: uppercase;
+	position: absolute;
+	top:20px;
+	left: 500px;
+	
+	
+}
+nav#menu li{
+	font-size:16pt;
+	display: inline-flex; 
+	padding:2px;
+	margin: 2px;
+	color: #ffffff;
+	font-weight:30px;
+	text-align: right;
+}
+
+
+nav#menu a {
+	color:#ffffff;
+}
+nav#menu a:hover {
+	color: #fdf0d5;
+	text-decoration: transparent;
+	font-size:large;
+}
+/*/* Formatação do corpo */
+
+div#imagemprincipal {
+	margin: auto;
+	width: 900px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+div#imagemprincipal img {
+	border-top: 1px solid #780000;
+	border-left: 1px solid #780000;
+	border-bottom: 1px solid #780000; 
+	border-right: 1px solid #780000;
+}
+div#bemvindo {
+	text-align:center;
+	color: #ffffff;
+	background-color: #669bbc;
+	padding: 50px;
+	padding-top:20px;
+	font-size:13pt;
+	font-family:'New Tegomin', serif;
+}
+div#bemvindo a {
+	text-align:center;
+	color: #ffffff;
+	background-color: #669bbc;
+}
+
+div#bemvindo p#branco {
+	text-align:center;
+	font-size: large;
+	
+}
+
+div#areafamilia {
+	background-color:#c1121f;
+	color: #ffffff;
+	text-align: center;
+	padding: 50px;
+	font-size: 13pt;
+	font-family: 'New Tegomin', serif;
+	padding-top:10px;
+}
+div#areafamilia a {
+	color: #ffffff;
+	text-align: center;
+	padding: 50px;
+	font-size: 13pt;
+	font-family: 'New Tegomin', serif;
+	padding-top:10px;
+	display:	
+}
+h2{
+	font-size:20pt;
+	font-family:'New Tegomin', serif;
+	text-align:center;
+	color: #003049;
+}
+div#mlb {
+	font-size:15pt;
+	font-family:'New Tegomin', serif;
+	width: 50%;
+	height:40%;
+	float: left;
+	color: red;
+	border:1px solid #003049;
+	text-align:center;
+	padding: 100px;
+}
+div#olga {
+	font-size:15pt;
+	font-family:'New Tegomin', serif;
+	height: 40%;
+	width: 99,5%;
+	color: red;
+	border:1px solid #003049;
+	text-align:center;
+	padding: 100px;
+}
+
+}
+
+/*/* Formatação do rodape */
+
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #606060;
+}
+footer#rodape p{
+	font-size:12pt;
+	text-align:center;
+}
+footer#rodape p#por {
+	color:#669bbc;
+	font-size:9pt;
+	text-align:center;
+}
+

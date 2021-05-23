@@ -6,6 +6,11 @@
 	Font-family: 'FonteLogo';
 } 
 
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
 div#interface{
 	background-color: #fdf0d5 ;
  }

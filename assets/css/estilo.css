@@ -47,9 +47,9 @@ header#cabecalho hgroup {
 	top:-10px;
 }
 
-header#cabecalho h1{
+header#cabecalho h1 {
 	color:#ffffff
-	top:1000px;
+	
 }
 header#cabecalho hgroup h3{
 	font-weight: none;
@@ -145,37 +145,20 @@ div#areafamilia a {
 	font-size: 13pt;
 	font-family: 'New Tegomin', serif;
 	padding-top:10px;
-	display:	
 }
-h2{
+
+h2 {
 	font-size:20pt;
 	font-family:'New Tegomin', serif;
 	text-align:center;
 	color: #003049;
 }
-div#mlb {
+span {
 	font-size:15pt;
 	font-family:'New Tegomin', serif;
-	width: 50%;
-	height:40%;
-	float: left;
 	color: red;
-	border:1px solid #003049;
-	text-align:center;
-	padding: 100px;
-}
-div#olga {
-	font-size:15pt;
-	font-family:'New Tegomin', serif;
-	height: 40%;
-	width: 99,5%;
-	color: red;
-	border:1px solid #003049;
-	text-align:center;
-	padding: 100px;
 }
 
-}
 
 /*/* Formatação do rodape */
 

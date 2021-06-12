@@ -2,18 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 
-@font-face{
-	Font-family: 'FonteLogo';
-} 
+
 
 body{
 	margin: 0px;
 	padding: 0px;
+	background-color: #fdf0d5;
 }
 
-div#interface{
-	background-color: #fdf0d5 ;
- }
+ 
 p{
 text-align:justify;
 text-indent: 50px;}
@@ -23,7 +20,7 @@ a{
 	text-decoration: none;
 }
 a:hover{
-	text-decoration: underline;
+	text-decoration: large;
 }
 
 
@@ -33,6 +30,10 @@ header#cabecalho {
 	font-family: 'Rajdhani', sans-serif;
 	font-weight: none;
 	background-color: #c1121f;
+	position: fixed;
+  	top: 0;
+  	right: 0;
+  	left: 0;
 }
 header#cabecalho img{
 	display:block;
@@ -64,6 +65,7 @@ header#cabecalho hgroup h3{
 nav#menu {
 	display: block;
 	font-family:'New Tegomin', serif;
+	
 }
 	
 nav#menu ul{
@@ -99,19 +101,20 @@ nav#menu a:hover {
 div#imagemprincipal {
 	margin: auto;
 	width: 900px;
-	padding-top: 40px;
+	padding-top: 140px;
 	padding-bottom: 40px;
 }
 div#imagemprincipal img {
-	border-top: 1px solid #780000;
-	border-left: 1px solid #780000;
-	border-bottom: 1px solid #780000; 
-	border-right: 1px solid #780000;
+	border: 1px solid #780000;
+
 }
 div#bemvindo {
 	text-align:center;
 	color: #ffffff;
 	background-color: #669bbc;
+	background-image: url('../imagens/nuvemMenor.png');
+	background-repeat: repeat-x;
+	background-position:center top;
 	padding: 50px;
 	padding-top:20px;
 	font-size:13pt;
@@ -119,19 +122,24 @@ div#bemvindo {
 }
 div#bemvindo a {
 	text-align:center;
-	color: #ffffff;
-	background-color: #669bbc;
+	color: #0071b8;
+	font-weight: bold;
+
+	font-size: 18px;
 }
 
 div#bemvindo p#branco {
-	text-align:center;
-	font-size: large;
-	
+	text-align:center;	
+}
+
+div#bemvindo p#branco a:hover {
+	color: #0a1c58;
+	text-decoration: transparent;
+	font-size:smaller;
 }
 
 div#areafamilia {
-	background-color:#c1121f;
-	color: #ffffff;
+	color: #780000;
 	text-align: center;
 	padding: 50px;
 	font-size: 13pt;
@@ -139,7 +147,7 @@ div#areafamilia {
 	padding-top:10px;
 }
 div#areafamilia a {
-	color: #ffffff;
+	color: #780000;
 	text-align: center;
 	padding: 50px;
 	font-size: 13pt;
@@ -153,10 +161,16 @@ h2 {
 	text-align:center;
 	color: #003049;
 }
-span {
+
+
+div#movimentos{
 	font-size:15pt;
 	font-family:'New Tegomin', serif;
-	color: red;
+	background-color:#ffffff;
+	text-align: center;
+}
+div#movimentos h3{
+	color: #780000;
 }
 
 

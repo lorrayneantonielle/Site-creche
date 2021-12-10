@@ -10,7 +10,11 @@
     
     <!-- Folha de estilo  -->
     <link rel="stylesheet" type="text/css" href="css/style/estilo.css"/>
-    <link rel="stylesheet" href="css/style/calendario.css" />
+    <link rel="stylesheet" href="calendario.css">
+
+     <!-- Fontes  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <title>Creche Tia Carminha</title>
 
@@ -87,37 +91,35 @@
       <!-- FIM DA ÁREA BEM VINDO -->
 
       <!-- ÁREA AGENDA  -->
-      <div><h3>Agenda !!!</h3></div>
-      <section>
-        
-        <div class="box-calendario">
+      <div class="row">
+        <div class="col-md-6">
           <div class="container">
-            <div id="dycalendar">
+            <div class="calendar">
+              <div class="month">
+                <i class="fas fa-angle-left prev"></i>
+                  <div class="date">
+                    <h1></h1>
+                    <p></p>
+                  </div>
+                <i class="fas fa-angle-right next"></i>
+              </div>
+              <div class="weekdays">
+                <div>Dom</div>
+                <div>Seg</div>
+                <div>Ter</div>
+                <div>Qua</div>
+                <div>Qui</div>
+                <div>Sex</div>
+                <div>Sab</div>
+              </div>
+              <div class="days">
+                
+              </div>
               
             </div>
-          </div>
+          </div> 
         </div>
-        <div class="row"> 
-          <div class="agenda-calendario">
-            <ul>
-              <li>09/01 até 20/01 - Matrícula</li>
-              <li>28/01 - Primeira reunião da família</li>
-              <li>04/02 - Primeiro dia letivo</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <script src="js/dycalendar.js"></script>
-      <script>
-        dycalendar.draw({
-          target: "#dycalendar",
-          type: "month",
-          dayformat: "full",
-          monthformat: "full",
-          highlighttargetdate: true,
-          prevnextbutton: "show",
-        });
-      </script>
+      </div>
 
         
 

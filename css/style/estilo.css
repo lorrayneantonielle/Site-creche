@@ -44,7 +44,7 @@ section {
     justify-content: flex-start;
     align-items: center;
     min-height: 55vh;
-    background-image: url("baixados.png");
+    /* background-image: url("baixados.png"); */
     background-color: white;
     overflow: hidden;
   }

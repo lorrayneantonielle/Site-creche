@@ -52,7 +52,7 @@ section {
     position: relative;
     z-index: 1000;
   }
-  .container {
+  .container-calendario {
     position: relative;
     width: 400px;
     min-height: 400px;
@@ -70,8 +70,8 @@ section {
 .area1-home {
     background-image: url("../../img/bem-vindo.png");
     padding:50px;
-    margin: 20px;
-    font-size: 20px;
+    /* margin: 20px; */
+    font-size: 18px;
     text-align: justify;
 }
 

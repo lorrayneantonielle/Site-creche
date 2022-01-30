@@ -17,7 +17,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <title>Creche Tia Carminha</title>
+    <style>
+      .texto{
+        position: relative;
+      }
+      .texto:before{
+        animation-name: alonga;
+        animation-duration: 1s;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: infinite;
+        content:'';
+        position:absolute;
+        bottom:0;
+        right:0px;
+        z-index: 0;
+        background:rgba(150, 21, 21, 1);
+        height:8px;
+      }
 
+      @keyframes alonga {
+        from{ 
+            width:0;
+          }
+
+        to{
+            width:100px;
+        }
+      }
+      
+    </style>
   </head>
   <body>
 
@@ -76,19 +104,55 @@
     </main>
 
       <!-- ÁREA BEM VINDO -->
-      <div class="area1-home">
-        <h1>Bem vindo ao nosso mundo Tia Carminha!</h1>
+      <div class="container">
+        <div class="area1-home">
+          <h1>Bem vindo ao nosso mundo <span class="texto">Tia Carminha!</span></h1>
+          
+          <p>A Creche Tia Carminha atua desde 2012 com as famílias do Vale das Ocupações do Barreiro, buscando cuidar com afeto e revolução e proporcionar às crianças um ambiente educativo, criativo, instigante acolhedor e seguro que garanta um pleno desenvolvimento psicológico, cognitivo, intelectual, social, físico e emocional.</p>
+          
         
-        <p>A Creche Tia Carminha atua desde 2012 com as famílias do Vale das Ocupações do Barreiro, buscando cuidar com afeto e revolução e proporcionar às crianças um ambiente educativo, criativo, instigante acolhedor e seguro que garanta um pleno desenvolvimento psicológico, cognitivo, intelectual, social, físico e emocional.</p>
-        
-        <div class="row">
-          <div class="btn-group" role="group" aria-label="Conheça">
-            <a href="seja-apoiador.html"><button type="button" class="btn btn-primary">Conheça mais sobre a gente</button></a>
+          <div class="row d-flex justify-content-around">
+            <div class="col-4">
+              <div class="btn-group" role="group" aria-label="Conheça">
+                <a href="nossa-historia.html"><button type="button" class="btn btn-primary">Conheça mais sobre a gente</button></a>
+                
+              </div>
+            </div>
+            
+          </div> 
+        </div>
+      </div>
+      
+      <!-- FIM DA ÁREA BEM VINDO -->
+
+      <!-- CARDS -->
+      <div>
+        <div class="container">
+          <div class="row p-0 m-0 d-flex justify-content-around">
+            <div class="col-3" >
+              <div class="card">
+                <p class="cards-home">
+                  Mas final, o que fazemos na creche ?
+                </p>
+              </div>
+            </div>
+            <div class="col-3" >
+              <div class="card">
+                jfalsdf
+              </div>
+  
+            </div>
+            <div class="col-3" >
+              <div class="card">
+                asfjasdlfjaoisdf
+              </div>
+  
+            </div>
             
           </div>
-        </div> 
+        </div>
       </div>
-      <!-- FIM DA ÁREA BEM VINDO -->
+      
 
       <!-- ÁREA AGENDA  -->
       <div class="row">
@@ -96,7 +160,7 @@
 
         </div> -->
         <div class="col-md-4">
-          <div class="container">
+          <div class="container-calendario">
             <div class="calendar">
               <div class="month">
                 <i class="fas fa-angle-left prev"></i>

@@ -36,6 +36,22 @@
     border-color: #67b7b3;
 }
 
+/* CARDS */
+.fundo-card {
+    padding:50px;
+    background-color: #ffd494;
+    padding: 90px;
+}
+.card {
+    border-radius: 8px;
+    background-color: #ffffff;
+
+}
+.cards-home {
+    padding: 40px;
+    
+}
+
 /* CALENDARIO */
 
 section {

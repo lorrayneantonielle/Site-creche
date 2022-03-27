@@ -1,17 +1,21 @@
 @charset "UTF-8";
 
+
 /* home */
 
-.body {
-    background-color: red;
+body {
+    background-color: #fffac4;
 }
 .navbar {
     padding-top: 0;
-    background-color: #67b7b3;
+    background-color: #FFF475 ;
 }
 
 .link-navbar {
-    color: #fff;
+    color: red;
+}
+.link-navbar:hover {
+    color:orange;
 }
 
 .navbar-collapse {
@@ -63,12 +67,12 @@ section {
     /* background-image: url("baixados.png"); */
     background-color: white;
     overflow: hidden;
-  }
-  .box-calendario {
+}
+.box-calendario {
     position: relative;
     z-index: 1000;
-  }
-  .container-calendario {
+}
+.container-calendario {
     position: relative;
     width: 400px;
     min-height: 400px;
@@ -81,10 +85,9 @@ section {
     justify-content: center;
     align-items: center;
     margin-left: 140px;
-  }
+}
 
 .area1-home {
-    background-image: url("../../img/bem-vindo.png");
     padding:50px;
     /* margin: 20px; */
     font-size: 18px;
@@ -92,7 +95,9 @@ section {
 }
 
 h1 {
+    font-family: 'Shadows Into Light', cursive;
     text-align: center;
+    margin:20px !important;
 }
 
 .fundo {
@@ -105,6 +110,7 @@ h1 {
 
 a {
     text-decoration: none;
+    color: orange;
 }
 
 /* footer */
@@ -113,25 +119,35 @@ a {
     background-color: #fff47573;
 }
 
-.h1-footer {
+.h4-footer {
+    font-family: 'Shadows Into Light', cursive;
+    margin-bottom: 0;
     margin-top: 20px;
-    color: #67b7b3;
+    color: red;
+    text-align: center;
+}
+.p-footer {
+    text-align: center;
+    display: inline;
+    font-size: 16;
+    font-weight: 500;
+    color:orange;
 }
 
 ul {
     text-align: center;
     display: inline;
-    vertical-align: 20px;
-    color: #0d6efd;
+    color: orange;
 }
 
 li {
     list-style-type: none;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .redes-sociais {
-    margin:30px;
+    margin:8px;
 }
 
 .logos-footer {
@@ -140,19 +156,29 @@ li {
 }
 
 .area-logos {
-    background-color: #fca044;
+    background-color: #FFF475;
 }
 
-.h3-footer {
-    text-align: center;
-    padding: 10px;
-    color: #fff;
-}
+
 
 .copyright {
     text-align: center;
     
 }
-
-
+.img-sobre {
+    max-width: 100%;
+}
+.btn {
+    font-size: 18px;
+    border-radius: 50px;
+    height: 50px;
+    color: red;
+    border-color: red;
+    margin: 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.btn:hover {
+    background-color: orange;
+    border-color: orange;
+}
 
